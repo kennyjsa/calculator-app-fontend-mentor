@@ -1,0 +1,25 @@
+.theme3 {
+  /** DEFAULTS*/
+  --text-color-base: hsl(52, 100%, 62%);
+
+  /** THEME 1*/
+  /* Backgrounds */
+  --main-background: hsl(268, 75%, 9%);
+  --keypad-background: hsl(268, 71%, 12%);
+  --screen-background: hsl(268, 71%, 12%);
+
+  /* Keys */
+  --key-background-default: hsl(268, 47%, 21%);
+  --key-shadow-default: hsl(290, 70%, 36%);
+  
+    --key-background-primary: hsl(176, 100%, 44%);
+    --key-shadow-primary: hsl(177, 92%, 70%);
+
+  --key-background-secondary: hsl(281, 89%, 26%);
+  --key-shadow-secondary: hsl(285, 91%, 52%);
+
+  /*Text*/
+  --text-color-default: hsl(52, 100%, 62%);
+  --text-color-primary: hsl(198, 20%, 13%);
+  --text-color-secondary: hsl(0, 0%, 100%);
+}

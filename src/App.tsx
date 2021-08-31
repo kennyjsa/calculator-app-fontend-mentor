@@ -1,25 +1,25 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import { Container } from "./components/layout/Container";
+import { Footer } from "./components/layout/Footer";
+import { Main } from "./components/layout/Main";
+import { ThemeProvider } from "./contexts/ThemeContext";
+import { Calculator } from "./pages/Calculator";
 
-function App() {
+import './styles/global.css';
+
+export const App: React.FC = () => {
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <ThemeProvider>
+      <Container>
+        <Main>
+          <Calculator />
+        </Main>
+        <Footer>
+          Challenge by&nbsp;<a href="https://www.frontendmentor.io?ref=challenge" rel="noreferrer" target="_blank">Frontend Mentor</a>. 
+          Coded by&nbsp;<a href="https://github.com/kennyjsa">Kenny Johnson</a>.
+        </Footer>
+      </Container>
+    </ThemeProvider>
   );
 }
 

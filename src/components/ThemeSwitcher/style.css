@@ -1,0 +1,60 @@
+.theme-switch-container {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+  color: var(--text-color-base);
+}
+
+.theme-switch-container > .label {
+  font-weight: 700;
+  font-size: 0.75rem;
+  letter-spacing: 0.1em;
+  margin-right: 0.5rem;
+  height: 26px;
+  line-height: 26px;
+}
+
+.theme-switch .switch {
+  display: flex;
+  align-items: center;
+
+  padding: 5px;
+
+  width: 71px;
+  height: 26px;
+
+  background: var(--keypad-background);
+  border-radius: 9999px;
+  position: relative;
+}
+
+.theme-switch .switch .item {
+  cursor: pointer;
+  height: 100%;
+  width: 100%;
+}
+
+.theme-switch .switch .bullet {
+  width: 17px;
+  height: 17px;
+  pointer-events: none;
+
+  background: var(--key-background-primary);
+  border-radius: 999px;
+
+  position: absolute;
+
+  transition: left 150ms ease-out;
+}
+
+.theme-switch > .labels {
+  display: flex;
+  justify-content: space-between;
+  padding: 0 10px;
+
+  font-size: .75rem;
+}
+
+.theme-switch > .labels > div {
+  cursor: pointer;
+}
