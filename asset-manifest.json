@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.css": "/static/css/main.07991f36.chunk.css",
-    "main.js": "/static/js/main.4ea5e4f8.chunk.js",
-    "main.js.map": "/static/js/main.4ea5e4f8.chunk.js.map",
-    "runtime-main.js": "/static/js/runtime-main.83e15aa8.js",
-    "runtime-main.js.map": "/static/js/runtime-main.83e15aa8.js.map",
-    "static/js/2.f964bf94.chunk.js": "/static/js/2.f964bf94.chunk.js",
-    "static/js/2.f964bf94.chunk.js.map": "/static/js/2.f964bf94.chunk.js.map",
-    "index.html": "/index.html",
-    "static/css/main.07991f36.chunk.css.map": "/static/css/main.07991f36.chunk.css.map",
-    "static/js/2.f964bf94.chunk.js.LICENSE.txt": "/static/js/2.f964bf94.chunk.js.LICENSE.txt"
+    "main.css": "/calculator-app-fontend-mentor/static/css/main.07991f36.chunk.css",
+    "main.js": "/calculator-app-fontend-mentor/static/js/main.4ea5e4f8.chunk.js",
+    "main.js.map": "/calculator-app-fontend-mentor/static/js/main.4ea5e4f8.chunk.js.map",
+    "runtime-main.js": "/calculator-app-fontend-mentor/static/js/runtime-main.bcc00f4a.js",
+    "runtime-main.js.map": "/calculator-app-fontend-mentor/static/js/runtime-main.bcc00f4a.js.map",
+    "static/js/2.46f93afc.chunk.js": "/calculator-app-fontend-mentor/static/js/2.46f93afc.chunk.js",
+    "static/js/2.46f93afc.chunk.js.map": "/calculator-app-fontend-mentor/static/js/2.46f93afc.chunk.js.map",
+    "index.html": "/calculator-app-fontend-mentor/index.html",
+    "static/css/main.07991f36.chunk.css.map": "/calculator-app-fontend-mentor/static/css/main.07991f36.chunk.css.map",
+    "static/js/2.46f93afc.chunk.js.LICENSE.txt": "/calculator-app-fontend-mentor/static/js/2.46f93afc.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
-    "static/js/runtime-main.83e15aa8.js",
-    "static/js/2.f964bf94.chunk.js",
+    "static/js/runtime-main.bcc00f4a.js",
+    "static/js/2.46f93afc.chunk.js",
     "static/css/main.07991f36.chunk.css",
     "static/js/main.4ea5e4f8.chunk.js"
   ]
