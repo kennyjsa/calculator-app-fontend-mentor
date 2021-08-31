@@ -1,6 +1,14 @@
 # Frontend Mentor - Calculator app solution
 
+![Design preview for the Calculator app coding challenge](./design/desktop-preview.jpg)
+
 This is a solution to the [Calculator app challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/calculator-app-9lteq5N29).
+
+
+### Links
+
+- Solution URL: [Solution](https://www.frontendmentor.io/solutions/reactjs-typescript-and-styledcomponents-WkkxPJ7Jv)
+- Live Site URL: [Calculator app](https://kennyjsa.github.io/calculator-app-fontend-mentor/)
 
 
 ## Built with
